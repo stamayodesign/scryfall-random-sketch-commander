@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link rel="stylesheet" href="css/style.css">-->
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        
-    <script> 
-        $(function(){
-          $("#footer").load("html/footer.html"); 
-        });
-        </script> 
+        <title>Scryfall Random Sketch Commander Project</title>
     </head>
-    <body>
-        <h1>Scryfall Random Sketch Commander Project</h1>
-        <div id="footer"></div>
+    <body>        
+        <div class="header">
+            <h2>Scryfall Random Sketch Commander Project</h2>
+        </div>
+        <div class="row">
+            <div class="scrollnav">
+                <a class="currentpage" title="Main">Main</a>
+                <a class="navbutton" href="#" title="The Cards">The Cards</a>
+                <a class="navbutton" href="#" title="Option 3">Option 3</a>
+                <a class="navbutton" href="#" title="Option 4">Option 4</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Dec 7, 2017</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                </div>
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2017</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <div class="fakeimg" style="height:100px;">Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                    <h3>Other Posts</h3>
+                    <div class="fakeimg">Image</div><br>
+                    <div class="fakeimg">Image</div><br>
+                    <div class="fakeimg">Image</div>
+                </div>
+                <div class="card followme">
+                    <h3>Follow Me</h3>
+                    <a href="https://bsky.app/profile/sorocoroto.bsky.social" target="_blank" title="Bluesky Profile Link"><img class="socialimglink" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="bluesky link" style="width:20px;height:20px;">Bluesky</a>
+                    <a href="https://moxfield.com/users/sorocoroto" target="blank" title="Moxfield Profile Link"><img class="socialimglink" src="https://assets.moxfield.net/assets/images/empty-profile.png" alt="moxfield link" style="width:20px;height:20px;">Moxfield</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Last Updated:</p>
+        </div>
     </body>
 </html>
