@@ -8,10 +8,24 @@ body{
     padding: 20px;
 }
 
+/*Right Side*/
+
 .avatar {
     border-radius: 50%;
     width:100%;
     max-width: 200px;
+}
+
+.sideprogress{
+    width:100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+.sideprogress th{
+    font-weight: bold;
+}
+.sideprogress tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 /* posts */
@@ -149,6 +163,6 @@ a:hover{
         padding: 0;
     }
     body{
-        background-color: rgb(105, 15, 133);
+        /*background-color: rgb(105, 15, 133);*/
     }
 }
