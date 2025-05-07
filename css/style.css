@@ -8,6 +8,11 @@ body{
     padding: 20px;
 }
 
+/* posts */
+.post p{
+    font-size:medium;
+}
+
 .prevent-text-select{    
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -20,6 +25,29 @@ body{
     font-size: 40px;
     text-align: center;
     background: white;
+}
+
+/*Card Progress Bar*/
+.cardprogressbar{
+    background-color: #777;
+    height:20px;
+    width:2%;
+    position: absolute;
+    padding: 0px;
+}
+.cardprogresstext{
+    padding: 2px 2px 0px 0px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.cardprogress{
+    background-color:#ddd;
+    border-style:groove;
+    border-color: #999;
+    border-width: 2px;
+    position: relative;    
+    height:24px;
 }
 
 /*scrollnav*/
