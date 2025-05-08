@@ -7,7 +7,7 @@
         <script src="js/script.js"></script>
         <title>Scryfall Random Sketch Commander Project</title>
     </head>
-    <body onload="updateFullCardProgressText()">    
+    <body onload="onPageLoad()">    
         <div class="header">
             <h2>Scryfall Random* Sketch Commander Project</h2>
         </div>        
@@ -27,6 +27,19 @@
         </div>
         <div class="row">
             <div class="leftcolumn">
+                <div class="card post">                    
+                    <h2>Day 69: Wayfarer's Bauble (TDC)</h2>
+                    <h5>Sketch Post, May 8, 2025</h5>           
+                    <h4>Sketch: May 6, 2025</h4>
+                    <p>Sketch Time: 30-minutes</p>
+                    <p>I remember a time when this card spiked to like $3. I'm glad to get it for this deck to help with fixing.</p>                
+                    <img id="sketchDay69" class="sketchImage" src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vlb3baqyfxfheceuqyubujfl/bafkreibba373fnh2snomyli74xohd6nv52nirplkotriubecrya2pzipeu@jpeg" height="200" alt="My sketch of Wayfarer's Bauble after 30 minutes.">
+                    <h6>My sketch of Wayfarer's Bauble after 30 minutes.</h6>
+                    <br>   
+                    <img id="sketchDay69" class="sketchImage" src="https://cards.scryfall.io/large/front/a/c/ac1960a1-9141-468c-b96c-6c8e6905084d.jpg?1743207408" height="200" alt="(Original Artist: Tomas Duchek)">
+                    <h6>(Original Artist: Tomas Duchek) <a href="https://scryfall.com/card/tdc/335/wayfarers-bauble" target="_blank" title="Wayfarer's Bauble">Scryfall Link</a></h6> 
+                    <br><a target="_blank" href="https://bsky.app/profile/sorocoroto.bsky.social/post/3lon2zhu5t226" title="sorocoroto.bsky.social">Link to bluesky post.</a>
+                </div>
                 <div class="card post">
                     <h2>AN INTRODUCTORY POST</h2>
                     <h5>A "short "introduction, May 6, 2025</h5>
@@ -44,11 +57,11 @@
                         <th colspan="2">Current Progress:</th>
                         <tr>
                             <td>Sketches</td>
-                            <td>68</td>
+                            <td id="tdCurrentProgressSketchText">?</td>
                         </tr>
                         <tr>
                             <td>Clip Studio Paint Drawings</td>
-                            <td>2</td>
+                            <td id="tdCurrentProgressCSPText">?</td>
                         </tr>
                     </table>
                 </div>
@@ -66,6 +79,11 @@
         </div>
         <div class="footer">
             <div id="divFooterLastUpdated"></div>
+        </div>
+        <div id="pageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
         </div>
     </body>
 </html>
