@@ -1,24 +1,19 @@
 
+const currentFullCardProgress = 2;
+const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
+const lastUpdateTime = "7 May 2025 Wednesday 20:22:30 EDT (UTC-04)"; //https://www.utctime.net/utc-to-edt-converter
 
-//extraction code sourced from: https://dev.to/codingnninja/how-to-extract-title-description-or-metadata-from-markdown-3nn8
-const extractMetadataFromMarkdown = (markdown) => {
-    const charactersBetweenGroupedHyphens = /^---([\s\S]*?)---/;
-    const metadataMatched = markdown.match(charactersBetweenGroupedHyphens);
-    const metadata = metadataMatched[1];
+function updateFullCardProgressText(){
+  document.getElementById("divCurrentFullCardProgressBar").style.width = (currentFullCardProgress+"%");
+  document.getElementById("divCurrentFullCardProgressText").textContent = currentFullCardProgressText;
+  console.log("//soro");
+  updateLastUpdatedTime();
+}
 
-    if (!metadata) {
-      return {};
-    }
+function updateLastUpdatedTime(){
+  document.getElementById("divFooterLastUpdated").textContent = "Last Updated: "+lastUpdateTime;
+}
 
-    const metadataLines = metadata.split("\n");
-    const metadataObject = metadataLines.reduce((accumulator, line) => {
-      const [key, ...value] = line.split(":").map((part) => part.trim());
-
-      if (key)
-        accumulator[key] = value[1] ? value.join(":") : value.join("");
-      return accumulator;
-    }, {});
-
-    return metadataObject;
-};
-
+function updateSideBar(){
+  //TODO
+}

@@ -7,21 +7,21 @@
         <script src="js/script.js"></script>
         <title>Scryfall Random Sketch Commander Project</title>
     </head>
-    <body>    
+    <body onload="updateFullCardProgressText()">    
         <div class="header">
             <h2>Scryfall Random* Sketch Commander Project</h2>
         </div>        
         <div class="row">
             <div class="cardprogress prevent-text-select">
-                <div class="cardprogressbar"></div>
-                <div class="cardprogresstext">Current Full Card Progress: 2%</div>
+                <div id="divCurrentFullCardProgressBar" class="cardprogressbar"></div>
+                <div id="divCurrentFullCardProgressText" class="cardprogresstext" >Current Full Card Progress: 2%</div>
             </div>
         </div>
         <div class="row">
             <div class="scrollnav">
                 <a class="currentpage" title="Main">Main</a>
                 <a class="navbutton" href="#" title="The Cards - Coming Soon -">The Cards</a>
-                <a class="navbutton" href="posts/allposts.html" title="All Posts - Coming Soon -">All Posts</a>
+                <a class="navbutton" href="posts/allposts.html" title="All Posts">All Posts</a>
                 <a class="navbutton" href="https://moxfield.com/decks/_qrcU7pkgE6lhgQCRw5YHg" target="blank" title="Moxfield List">Moxfield List</a>
             </div>
         </div>
@@ -55,7 +55,7 @@
                 <div class="card">
                     <h2>About Me</h2>
                     <img class="avatar" src="img/avatar_01.jpg" alt="Avatar">
-                    <p>My name is Steve. I am a programmer who has studied electrical engineering and likes magic the gathering.</p>
+                    <p>My name is Steve. I am a programmer who has studied electrical engineering and likes Magic: the Gathering.</p>
                 </div>
                 <div class="card followme">
                     <h3>Follow Me On</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="footer">
-            <p>Last Updated: May 7, 2025 11:26 AM EST</p>
+            <div id="divFooterLastUpdated"></div>
         </div>
     </body>
 </html>
