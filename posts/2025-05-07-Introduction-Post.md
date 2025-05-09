@@ -1,8 +1,8 @@
 ---
-title: 'AN INTRODUCTORY POST'
+title: "AN INTRODUCTORY POST"
 pubDate: 2025-05-07
 description: 'A "short" introduction, May 7, 2025'
-author: 'Steve Tamayo'
+author: "Steve Tamayo"
 draft: false
 tags: ["mtg","sketch","art","scryfallrandom"]
 ---
