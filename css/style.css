@@ -20,6 +20,9 @@ body{
 .leftcolumn {
     float: left;
     width: 75%;
+    overflow: auto;
+    height: 100vh;   
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Right column */
@@ -31,11 +34,18 @@ body{
 
 
   /* Header/Blog Title */
-.header {
-    padding: 30px;
+.header {    
+    padding-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
-    background: white;
+    background: white;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    border-style:groove;
+    border-color: #999;
+    border-width: 2px;
+    border-style:ridge;
 }
 
 /*Card Progress Bar*/
@@ -45,6 +55,7 @@ body{
     width:0%;
     position: absolute;
     padding: 0px;
+    
 }
 .cardprogresstext{
     padding: 2px 2px 0px 0px;
@@ -54,19 +65,19 @@ body{
 
 .cardprogress{
     background-color:#ddd;
-    border-style:groove;
+    border-style:solid;
     border-color: #999;
     border-width: 2px;
     position: relative;    
     height:24px;
+    width: 100%;
 }
 
 /*scrollnav*/
 .scrollnav{
     background-color: #aaa;
     overflow: auto;
-    white-space: nowrap;
-    
+    white-space: nowrap;        
 }
 .scrollnav a{
     display: inline-block;
@@ -127,6 +138,9 @@ a:hover{
 /*Left Side*/
 
 /* posts */
+.post {
+    margin-left: 6px;
+}
 .post p{
     font-size:medium;
 }
@@ -140,8 +154,16 @@ a:hover{
 /* Add a card effect for articles */
 .card {
     background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 20px;        
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lastpost, .moreposts{    
+    margin-bottom: 0px;
+}
+
+.moreposts{
+    text-align: right;
 }
 
 /* Clear floats after the columns */
