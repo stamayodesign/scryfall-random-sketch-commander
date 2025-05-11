@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-image: linear-gradient(180deg,#faebd7,#faebd7,#c8bcac);
     font-family:Arial, Helvetica, sans-serif;
     padding: 20px;
 }
@@ -180,6 +180,7 @@ a:hover{
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Modal */
