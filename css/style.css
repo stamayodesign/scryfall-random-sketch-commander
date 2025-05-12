@@ -33,6 +33,7 @@ body{
 }
 
 
+
   /* Header/Blog Title */
 .header {    
     padding-top: 20px;
@@ -163,7 +164,37 @@ a:hover{
 }
 
 .moreposts{
-    text-align: right;
+    text-align: center;    
+    background:none !important;
+}
+.moreposts a{
+    margin-right:5px;
+}
+.moreposts span{
+    margin-right:5px;
+}
+
+#postPageNav button{
+    border-radius: 5%;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #cccccc;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+#postPageNav button:hover{
+    background-color: #777;
+}
+
+.noHover{
+    pointer-events: none;
+    background-color: #777 !important;
 }
 
 /* Clear floats after the columns */
