@@ -1,5 +1,7 @@
 # 2025
 ### May
+* [2025-05-12-Sketch-Day74](2025-05-12-Sketch-Day74.md)
+* [2025-05-12-About-the-Project](2025-05-12-About-the-Project.md)
 * [2025-05-11-Sketch-Day73](2025-05-11-Sketch-Day73.md)
 * [2025-05-10-Sketch-Day72](2025-05-10-Sketch-Day72.md)
 * [2025-05-09-Sketch-Day71](2025-05-09-Sketch-Day71.md)
