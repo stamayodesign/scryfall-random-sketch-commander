@@ -2,7 +2,7 @@ const currentSketchProgress = 73;
 const currentCSPProgress = 4;
 const currentFullCardProgress = 4;
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
-const lastUpdateTime = "11 May 2025 Saturday 21:08:13 EDT (UTC-04)"; //https://www.utctime.net/utc-to-edt-converter
+const lastUpdateTime = "12 May 2025 Monday 22:27:30 EDT (UTC-04)"; //https://www.utctime.net/utc-to-edt-converter
 const postPageMax = 2;
 
 // Init Variables
@@ -66,6 +66,13 @@ function onPageLoad(){
 
   updateFullCardProgressText();
   updateLastUpdatedTime();
+
+  //Tool Tip
+  try{
+    updateToolTips()
+  } catch(error){
+    console.log(error);
+  }
 }
 
 function goToNextPage(){

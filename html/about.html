@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link rel="stylesheet" href="css/style.css">-->
+        <link rel="stylesheet" href="../css/style.css">
+        <!--<script src="../js/toolTip.js"></script>-->
+        <script src="../js/script.js"></script>
+        <title>Scryfall Random Sketch Commander Project</title>
+    </head>
+    <body onload="onPageLoad()">  
+        <div class="header">
+            <h2>Scryfall Random* Sketch Commander Project</h2>                    
+            <div class="row">
+                <div class="cardprogress prevent-text-select">
+                    <div id="divCurrentFullCardProgressBar" class="cardprogressbar"></div>
+                    <div id="divCurrentFullCardProgressText" class="cardprogresstext" >Current Full Card Progress: 2%</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="scrollnav">
+                    <a class="navbutton" href="../index.html" title="Main">Main</a>
+                    <a class="currentpage" title="About the Project">About the Project</a>
+                    <a class="navbutton" href="#" title="The Cards - Coming Soon -">The Cards</a>
+                    <a class="navbutton" href="../allposts.html" title="All Posts">All Posts</a>
+                    <a class="navbutton" href="https://moxfield.com/decks/_qrcU7pkgE6lhgQCRw5YHg" target="blank" title="Moxfield List">Moxfield List</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card lastpost">
+                    <h2>About the Project</h2>
+                    <h3>Sections</h3>
+                    <ol>
+                        <li><a href="#abt1">Preface</a></li>
+                        <li><a href="#abt2">An Altered Commander Deck</a></li>
+                        <li><a href="#abt3">* (Asterisk)</a></li>
+                        <li><a href="#abt4">Categories</a></li>
+                        <li><a href="#abt5">Digital Drawings</a></li>
+                    </ol>
+                    <span class="toolTip" title="example explaination">(Hover over for Magic: the Gathering terminology meanings.)</span>
+                    <div id="abt1"></div>
+                    <h4>1. Preface</h4>
+                    <p>
+                        I used to sketch/doodle a lot in high school and took traditional art classes in college for my digital media degree.
+                        I eventually focused on programming, and while I still found creative outlets in my adult life, drawing wasn't a focus. 
+                    </p>
+                    <p>
+                        Then at the end of February 2025, I decided to spend at least 10 minutes a day sketching. 
+                        When I was deciding what I was going to sketch, I had recently returned to Magic: the Gathering (MTG) after about a ~4-year hiatus. 
+                    </p>
+                    <p>
+                        There is a website called <a href="https://scryfall.com/" target="_blank" title="scryfall">scryfall.com</a>, which is a search engine for every card in the game.
+                        It has a dedicated button for pulling up a randomized card, which you can also access at <a href="https://scryfall.com/random" target="_blank" title="scryfall/random">scryfall.com/random</a>.                        
+                    </p>
+                    <p>
+                        So, I decided to hit the random button for each sketch, focusing on <span class="toolTip" title="cards that represent various different flavors of monsters that fight for the player">creature cards</span> as I mostly sketched figures.
+                        After a month, I increased the time to 20 minutes. 
+                        And as I approached the third month, I wanted to figure out what would be the next step.                  
+                    </p>
+                    <a class="jumpToTop" href="">Jump to Top</a>
+                    <div id="abt2"></div>
+                    <h4>2. An Altered Commander Deck</h4>
+                    <p>
+                        Since I had about 60 creature cards, I decided to create a Commander deck out of them. 
+                    </p>
+                    <p>
+                        Commander is a 100-card variant of MTG where you cannot play duplicate cards (aside from basic <span class="toolTip" title="cards that generate the resource used to cast your non-land cards">lands</span> and cards that specifically note that you can play more than one).
+                    </p>
+                    <p>
+                        While I could just add 40 basic lands and be done with it, I wanted the deck to be somewhat playable. 
+                        The plan is to continue pulling random cards from some of the major categories of deckbuilding.
+                        I will be pulling more than the recommended amount for each category, then trimming the entire stack down to 100.
+                    </p>
+                    <a class="jumpToTop" href="">Jump to Top</a>
+                    <div id="abt3"></div>
+                    <h4>3. * (Asterisk)</h4>
+                    <p>
+                        The asterisk in title of the project refers to the deck building process in two ways: 
+                        </p>
+                        <ol type="1">
+                            <li>
+                                First, as mentioned, I am not hitting random 100 times in total. 
+                                That deck has a high probability to be wildly imbalanced and not my idea of a "good time" in Commander.
+                            </li>
+                            <li>
+                                Second, I have chosen seven cards specifically to try to hold the deck together.
+                                Six of these cards are to match <span class="toolTip" title="a theme of deck centered around one ore more creature types">typal</span> synergy between all the cards.
+                                The seventh is a land that allows all lands to produce any <span class="toolTip" title="basic property of cards">color</span> at the later stages of the game.
+                            </li>
+                        </ol>    
+                    <p>
+                        Note that currently I am still in the middle of randomly generating cards, so a synergy may still arise from the chaos.
+                        So, while the current plan would have 93 random cards and 7 non-random cards, this could change.
+                    </p>
+                    <p>
+                        Also, I could always expand the card pool if I am still drawing past the project's original scope.
+                    </p>
+                    <a class="jumpToTop" href="">Jump to Top</a>
+                    <div id="abt4"></div>                  
+                    <h4>4. Categories</h4>
+                    <p>
+                        The following categories are the different filters that I will be using on scryfall:
+                    </p>
+                    <ol type="1">
+                        <li><b>creatures (60):</b> The bulk of the sketches are creatures. The <span class="toolTip" title="a commander is also a designation to describe the central card of a Commander deck">commander</span> is currently <a href="https://scryfall.com/card/m15/211/sliver-hivelord" target="_blank">Sliver Hivelord</a>, which <span class="toolTip" title="a Commander deck can only have colors that match the designated commander card for the deck">allows the use of every color</span>.</li>
+                        <li><b>ramp (14?):</b> Adds to mana production. I am thinking of doing at least two weeks of sketches.</li>
+                        <li><b>removal (14?):</b> Disrupting your opponent's plans through cards that would remove their <span class="toolTip" title="cards or tokens that exist on the battlefield"">permanents</span>. Ideally would have targeted and mass removal. Also thinking of doing two weeks for this section.</li>
+                        <li><b>card advantage (14?):</b> Cards that draw cards. Not necessarily replacing itself, but give a positive card exchange, i.e. casting 1 card lets you draw 2+ cards. Two weeks for this one as well.</li>
+                        <li><b>land (21? + basics):</b> I'm hoping to get a lot of <span class="toolTip" title="non-basic land that produces two colors of mana">dual lands</span>, so giving it three full weeks, but I will be randomizing art for each of the six basic land types to help fill in gaps if/when needed.</li>
+                    </ol>
+                    <a class="jumpToTop" href="">Jump to Top</a>
+                    <div id="abt5"></div>                  
+                    <h4>5. Digital Drawings</h4>
+                    <p>
+                        While this started off with sketches, I ultimately would like to digitally paint each of these cards as well. 
+                        Pictures I took of each sketch didn't scan well, so I thought about inking.
+                        However, after playing around in Clip Studio Paint, I liked how much more the art popped when applying an MTG card frame around it.
+                    </p>
+                    <p>
+                        Digital painting takes a considerable amount of time, and I do not want to burn out, so I'll be limiting paints to a max of three a week.
+                        The "Current Full Card Progress" at the top of this blog is how many full-card paints I have done. 
+                        This might not reflect the number of paintings I have posted.                        
+                    </p>
+                    <a class="jumpToTop" href="">Jump to Top</a>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <table class="sideprogress">
+                        <th colspan="2">Current Progress:</th>
+                        <tr>
+                            <td>Sketches</td>
+                            <td id="tdCurrentProgressSketchText">?</td>
+                        </tr>
+                        <tr>
+                            <td>Clip Studio Paint Drawings</td>
+                            <td id="tdCurrentProgressCSPText">?</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <h2>About Me</h2>
+                    <img class="avatar" src="../img/avatar_01.jpg" alt="Avatar">
+                    <p>My name is Steve. I am a programmer who has studied electrical engineering and likes Magic: the Gathering.</p>
+                </div>
+                <div class="card followme">
+                    <h3>Follow Me On</h3>
+                    <a href="https://bsky.app/profile/sorocoroto.bsky.social" target="_blank" title="Bluesky Profile Link"><img class="socialimglink" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="bluesky link" style="width:20px;height:20px;">Bluesky</a>
+                    <a href="https://moxfield.com/users/sorocoroto" target="blank" title="Moxfield Profile Link"><img class="socialimglink" src="https://assets.moxfield.net/assets/images/empty-profile.png" alt="moxfield link" style="width:20px;height:20px;">Moxfield</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="divFooterLastUpdated"></div>
+        </div>        
+        <div id="pageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    </body>
+</html>
