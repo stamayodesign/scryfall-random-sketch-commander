@@ -1,7 +1,8 @@
 # 2025
 ### May
-* [2025-05-15-Sketch-Day78-2](2025-05-15-Sketch-Day78-2.md)
-* [2025-05-15-Sketch-Day78-1](2025-05-15-Sketch-Day78-1.md)
+* [2025-05-17-Sketch-Day79](2025-05-17-Sketch-Day79.md)
+* [2025-05-16-Sketch-Day78-2](2025-05-16-Sketch-Day78-2.md)
+* [2025-05-16-Sketch-Day78-1](2025-05-16-Sketch-Day78-1.md)
 * [2025-05-15-Sketch-Day77](2025-05-15-Sketch-Day77.md)
 * [2025-05-14-Sketch-Day76](2025-05-14-Sketch-Day76.md)
 * [2025-05-13-Sketch-Day75](2025-05-13-Sketch-Day75.md)
