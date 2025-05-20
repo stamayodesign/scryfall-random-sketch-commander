@@ -4,7 +4,7 @@ pubDate: 2025-05-07
 description: 'About the Project Page, May 12, 2025'
 author: "Steve Tamayo"
 draft: false
-tags: ["mtg","sketch","art","scryfallrandom"]
+tags: ["siteupdate","scryfallrandom"]
 ---
 # Site Update!
 ## About the Project Page, May 12, 2025

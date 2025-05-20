@@ -4,7 +4,7 @@ pubDate: 2025-05-07
 description: 'A "short" introduction, May 7, 2025'
 author: "Steve Tamayo"
 draft: false
-tags: ["mtg","sketch","art","scryfallrandom"]
+tags: ["siteupdate","scryfallrandom"]
 ---
 # AN INTRODUCTORY POST
 ## A "short" introduction, May 7, 2025
