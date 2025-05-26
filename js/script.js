@@ -1,8 +1,8 @@
-const currentSketchProgress = 87;
-const currentCSPProgress = 4;
-const currentFullCardProgress = 5;
+const currentSketchProgress = 88;
+const currentCSPProgress = 5;
+const currentFullCardProgress = 6;
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
-const lastUpdateTime = "24 May 2025 Saturday 20:38:39 EDT (UTC-04)"; //https://www.utctime.net/utc-to-edt-converter
+const lastUpdateTime = "25 May 2025 Sunday 23:01:27 EDT (UTC-04)"; //https://www.utctime.net/utc-to-edt-converter
 const postPageMax = 7;
 
 // Init Variables
