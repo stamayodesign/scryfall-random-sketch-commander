@@ -1,5 +1,6 @@
 # 2025
 ### May
+* [2025-05-31-Sketch-Day93](2025-05-31-Sketch-Day93.md)
 * [2025-05-31-Digital-Paint-Day46](2025-05-31-Digital-Paint-Day46.md)
 * [2025-05-30-Sketch-Day92](2025-05-30-Sketch-Day92.md)
 * [2025-05-29-Sketch-Day91](2025-05-29-Sketch-Day91.md)
