@@ -1,10 +1,19 @@
-const currentSketchProgress = 95;
+const currentSketchProgress = 96;
 const currentCSPProgress = 5;
 const currentFullCardProgress = 6;
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
 //https://www.utctime.net/utc-to-edt-converter
-const lastUpdateTime = "1 June 2025 Sunday 13:07:19 EDT (UTC-04)"; 
+const lastUpdateTime = "2 June 2025 Monday 23:41:33 EDT (UTC-04)"; 
 const postPageMax = 9;
+//consider pagination
+const bufferZone = 3; 
+const cradleZone = 1 ;//Math.floor(bufferZone/2);
+//1-3:  <<|<|1|2|3|4|5|...|10|>|>>
+//4:    <<|<|1|...|3|4|5|...|10|>|>>
+//5:    <<|<|1|...|4|5|6|...|10|>|>>
+//6:    <<|<|1|...|5|6|7|...|10|>|>>
+//7:    <<|<|1|...|6|7|8|...|10|>|>>
+//8-10: <<|<|1|...|6|7|8|9|10|>|>>
 
 // Init Variables
 var modal;
