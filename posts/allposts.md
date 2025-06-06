@@ -1,5 +1,6 @@
 # 2025
 ### June
+* [2025-06-06-Sketch-Day99](2025-06-06-Sketch-Day99.md)
 * [2025-06-05-Sketch-Day98](2025-06-05-Sketch-Day98.md)
 * [2025-06-04-Sketch-Day97](2025-06-04-Sketch-Day97.md)
 * [2025-06-03-Sketch-Day96](2025-06-03-Sketch-Day96.md)
