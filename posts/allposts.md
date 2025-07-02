@@ -1,4 +1,7 @@
 # 2025
+### July
+* [2025-07-01-Sketch-Day124](2025-07-01-Sketch-Day124.md)
+
 ### June
 * [2025-06-30-Sketch-Day123](2025-06-30-Sketch-Day123.md)
 * [2025-06-29-Sketch-Day122](2025-06-29-Sketch-Day122.md)
