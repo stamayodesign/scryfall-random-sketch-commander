@@ -1,10 +1,10 @@
-const currentSketchProgress = 140;
-// Days 78, 99, 121, and 122 have 2 sketches each (+4)
+const currentSketchProgress = 142;
+// Days 78, 99, 121, 122, and 137 have 2 sketches each (+5)
 const currentCSPProgress = 8;
 const currentFullCardProgress = 9;
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
 //https://www.utctime.net/utc-to-edt-converter
-const lastUpdateTime = "13 July 2025 Sunday 20:42:38 EDT (UTC-04)"; 
+const lastUpdateTime = "14 July 2025 Monday 20:32:20 EDT (UTC-04)"; 
 const postPageMax = 10;
 //consider pagination
 const bufferZone = 3; 
