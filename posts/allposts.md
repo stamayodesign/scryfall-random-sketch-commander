@@ -1,5 +1,6 @@
 # 2025
 ### July
+* [2025-07-25-Sketch-Day148](2025-07-25-Sketch-Day148.md)
 * [2025-07-24-Sketch-Day147](2025-07-24-Sketch-Day147.md)
 * [2025-07-23-Sketch-Day146](2025-07-23-Sketch-Day146.md)
 * [2025-07-22-Sketch-Day145](2025-07-22-Sketch-Day145.md)
