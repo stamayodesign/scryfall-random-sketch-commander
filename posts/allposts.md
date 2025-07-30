@@ -1,5 +1,6 @@
 # 2025
 ### July
+* [2025-07-29-ToDeckBuildingPhase](2025-07-29-ToDeckBuildingPhase.md)
 * [2025-07-28-Sketch-Day151](2025-07-28-Sketch-Day151.md)
 * [2025-07-27-Sketch-Day150](2025-07-27-Sketch-Day150.md)
 * [2025-07-26-Sketch-Day149](2025-07-26-Sketch-Day149.md)
