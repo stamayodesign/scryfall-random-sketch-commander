@@ -6,8 +6,8 @@ author: "Steve Tamayo"
 draft: false
 tags: ["mtg","digital","art","scryfallrandom","clipstudiopaint"]
 ---
-# Digital Art: Sol Ring
-## Digital Paint: May 23, 2025
+# Digital Art: Maskwood Nexus 
+## Digital Paint: June 1-7, 2025
 
 With the final weeks of my scryfall/random project sketches underway, I'm hoping to not burn out and be able to digitally paint the 93... remaining cards...
 
