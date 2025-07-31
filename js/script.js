@@ -4,7 +4,7 @@ const currentCSPProgress = 9;
 const currentFullCardProgress = 10
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
 //https://www.utctime.net/utc-to-edt-converter
-const lastUpdateTime = "30 July 2025 Wednesday Monday 20:18:49 EDT (UTC-04)"; 
+const lastUpdateTime = "30 July 2025 Wednesday 20:18:49 EDT (UTC-04)"; 
 const postPageMax = 9;
 //consider pagination
 const bufferZone = 3; 
