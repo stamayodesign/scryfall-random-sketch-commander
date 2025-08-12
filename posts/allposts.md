@@ -1,4 +1,7 @@
 # 2025
+### August
+* [2025-08-12-Added-Gallery-Page](2025-08-12-Added-Gallery-Page.md)
+
 ### July
 * [2025-07-30-Digital-Paint-Day108](2025-07-30-Digital-Paint-Day108.md)
 * [2025-07-29-ToDeckBuildingPhase](2025-07-29-ToDeckBuildingPhase.md)
