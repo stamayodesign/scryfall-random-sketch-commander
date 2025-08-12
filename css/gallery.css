@@ -1,0 +1,200 @@
+#galleryContainer{
+  display: table;
+}
+
+#textGalleryCount{
+  float:right;
+}
+
+
+.gallerythumbnailBasic{
+    position: relative;
+    float: left;
+    background-color: #FAF1DD;
+    width: 250px;
+    height: 250px;
+    border: #222 2px solid;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center; 
+    margin: 5px;
+    cursor: pointer;
+    display: none; /* Hide all elements by default */
+}
+
+.gallerythumbnailBasic:hover{    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galleryhelper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.gallerythumbnailBasic img{  
+    vertical-align: middle;
+}
+
+
+.sketchImage{
+  position: absolute;
+  top: 15%;
+  left: 0px;
+  width:inherit;
+  height: auto;
+}
+
+.sketchImagePortrait{
+  position: absolute;
+  top: -18%;
+  left: 0px;
+  width:inherit;
+  height: auto;
+}
+
+.gallerythumbnail{
+    position: relative;
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+    /*min-width: 160px;*/
+    width: 250px;
+    height:100%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-inline: 3px;
+    border-style: groove;
+    display: none; /* Hide all elements by default */
+    box-shadow: inset 0 0 0 7px black;
+}
+
+
+.divSketchImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallerythumbnail:hover{    
+    box-shadow: inset 0 0 0 7px black, 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallerythumbnail p{
+    font-size: smaller;
+}
+
+.gallerythumbnail h3{
+  margin: 7px;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Add a grey background color on mouse-over */
+#myBtnContainer .btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+#myBtnContainer .btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.gallery {
+  margin-bottom: 0px !important;
+}
+
+#myBtnContainer div{
+  margin-bottom: 5px;
+}
+
+.cardMask{
+  position: absolute;  
+  top: -17px;
+  left: 5px;
+}
+
+
+#galleryInfo{
+    position: relative;
+    float:left;    
+    background-color: #c5c5c5;
+}
+
+.modal-content{
+  width: 60% !important;
+}
+
+.fullInfoHolder{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 80%;
+  left:10%;
+}
+
+.infoColumn{
+  flex:auto;
+  padding: 10px;
+  text-align: left;
+  background-color: #FAF1DD;
+}
+
+#galleryTable{
+  font-family:Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-self: center;
+}
+
+#galleryTable td, #galleryTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#galleryTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#galleryTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #043eaa;
+  color: white;
+}
+
+#galleryTable .tdHead{
+  font-weight: bold;
+}
+
+#galleryPopUpImg{
+  margin: auto;
+}
+
+.tdCenter{
+  text-align: center;
+}
+
+.imgPortraitHelp{
+  width: 50%;
+  display: flex !important;
+}
+
+.imgLandscapeHelp{
+  width: 90% !important;
+  display: flex !important;
+}
+
+@media screen and (max-width: 800px) {
+    .fullInfoHolder{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+}

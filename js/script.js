@@ -4,7 +4,7 @@ const currentCSPProgress = 9;
 const currentFullCardProgress = 10
 const currentFullCardProgressText = "Current Full Card Progress: "+currentFullCardProgress+"%";
 //https://www.utctime.net/utc-to-edt-converter
-const lastUpdateTime = "30 July 2025 Wednesday 20:18:49 EDT (UTC-04)"; 
+const lastUpdateTime = "12 August 2025 Tuesday 15:40:55 EDT (UTC-04)"; 
 const postPageMax = 9;
 //consider pagination
 const bufferZone = 3; 
@@ -48,7 +48,7 @@ function closeModal(){
   modal.style.display = "none";  
 }
 
-function onPageLoad(){
+function onPageLoad(isGallery = false){
   //Assign Variables
   // Get the modal
   modal = document.getElementById("pageModal");
@@ -57,23 +57,26 @@ function onPageLoad(){
 
   postPageNav = document.getElementById("postPageNav");
   meta = document.getElementsByTagName("meta");
+  if(postPageNav!=undefined){
   for (var i = 0; i<meta.length;i++){
     console.log(meta[i]);
     if(meta[i].name=="postPage" && !isNaN(meta[i].content)){
       currentPageNum = parseInt(meta[i].content);
       updatePageNav();
     }
-  }
+  }}
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   //img = document.getElementById("sketchDay69");
-  modalImg = document.getElementById("img01");
-  captionText = document.getElementById("caption");
-
+  
   // Get the <span> element that closes the modal
   span = document.getElementsByClassName("close")[0];
-
-  addEventListenerFunc();
+  if(!isGallery){
+    
+    modalImg = document.getElementById("img01");
+    captionText = document.getElementById("caption");
+    addEventListenerFunc();
+  }
 
   updateFullCardProgressText();
   updateLastUpdatedTime();
