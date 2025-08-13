@@ -116,6 +116,7 @@ var divTextGalleryCount;
 
 function onPageLoad_Gallery(){
     onPageLoad(true);
+    document.getElementById("loadingImagesWarning").style.display = "none";
     // Add active class to the current button (highlight it)
     btnShowAllFilter = document.getElementById("filterShowAll");
     btnClearAllFilter = document.getElementById("filterClearAll");
